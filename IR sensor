@@ -1,0 +1,18 @@
+const int IRSen = 2;  
+const int LED = 13;      
+
+void setup() {
+  pinMode(IRSen, INPUT);  
+  pinMode(LED, OUTPUT);            
+}
+
+void loop() {
+  int IRstate = digitalRead(IRSen);  
+
+  if (IRstate == HIGH) {
+    digitalWrite(LED, HIGH);  
+    
+  } else {
+    digitalWrite(LED, LOW);  
+  }
+}
