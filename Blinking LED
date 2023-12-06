@@ -3,7 +3,6 @@ int LED = 13; // Pin number where the LED is connected
 void setup() {
   pinMode(ledPin, OUTPUT); // Set the LED pin as an output
 }
-
 void loop() {
 
   digitalWrite(LED, HIGH); 
@@ -11,5 +10,4 @@ void loop() {
   
   digitalWrite(ledPin, LOW);  
   delay(500);                
-
 }
