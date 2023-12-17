@@ -1,105 +1,117 @@
-void setup() 
+int A = 10;
+int B = 9;
+int C = 8;
+int D = 7;
+int E = 5;
+int F = 4;
+int G = 6;
+
+void setup()
 {
- pinMode(10,OUTPUT);
- pinMode(9,OUTPUT);
- pinMode(8,OUTPUT);
- pinMode(7,OUTPUT);
- pinMode(6,OUTPUT);
- pinMode(5,OUTPUT);
- pinMode(4,OUTPUT);
+  pinMode(A, OUTPUT);
+  pinMode(B, OUTPUT);
+  pinMode(C, OUTPUT);
+  pinMode(D, OUTPUT);
+  pinMode(E, OUTPUT);
+  pinMode(F, OUTPUT);
+  pinMode(G, OUTPUT);
 }
-
-void loop() 
-
+void loop()
 {
-//0
-  digitalWrite( 10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 6,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 4,LOW);
-  delay(400);
-// 1
-  digitalWrite(9,HIGH);
-  digitalWrite(8,HIGH);
-  digitalWrite(7,LOW);
-  digitalWrite(6,LOW);
-  digitalWrite(5,LOW);
-  digitalWrite(4,LOW);
-  digitalWrite(10,LOW);
-  delay(400);
-// 2
-  digitalWrite( 10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 4,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 6,HIGH);
-  digitalWrite( 5,LOW);
-  digitalWrite( 8,LOW);
-  delay(400);
-// 3
-  digitalWrite( 10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 6,LOW);
-  digitalWrite( 5,LOW);
-  digitalWrite( 4,HIGH);
-  delay(400);
-// 4
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 4,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 7,LOW);
-  digitalWrite( 10,LOW);
-  digitalWrite( 6,LOW);
-  delay(400);
-// 5
-  digitalWrite( 10,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 4,HIGH);
-  digitalWrite( 9,LOW);
-  digitalWrite( 6,LOW);
-  delay(400);
-// 6
-  digitalWrite( 10,HIGH);
-  digitalWrite( 6,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 4,HIGH);
-  digitalWrite( 3,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 9,LOW);
-  delay(400);
-// 7
-  digitalWrite(10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 7,LOW);
-  digitalWrite( 6,LOW);
-  digitalWrite( 5,LOW);
-  digitalWrite( 4,LOW);
-  delay(400);
-// 8
-  digitalWrite( 10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 6,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 4,HIGH);
-  delay(400);
-// 9
-  digitalWrite( 10,HIGH);
-  digitalWrite( 9,HIGH);
-  digitalWrite( 8,HIGH);
-  digitalWrite( 6,LOW);
-  digitalWrite( 7,HIGH);
-  digitalWrite( 5,HIGH);
-  digitalWrite( 4,HIGH);
-  delay(400);
+  digitalWrite( A,LOW); //PRINTING 1 
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,LOW);
+  digitalWrite( E,LOW);
+  digitalWrite( F,LOW);
+  digitalWrite( G,LOW);
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 2
+  digitalWrite( B,HIGH);
+  digitalWrite( C,LOW);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,HIGH);
+  digitalWrite( F,LOW);
+  digitalWrite( G,HIGH);
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 3
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,LOW);
+  digitalWrite( F,LOW);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,LOW); //PRINTING 4
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,LOW);
+  digitalWrite( E,LOW);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 5
+  digitalWrite( B,LOW);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,LOW);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 6
+  digitalWrite( B,LOW);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,HIGH);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 7
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,LOW);
+  digitalWrite( E,LOW);
+  digitalWrite( F,LOW);
+  digitalWrite( G,LOW);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); // PRINTING 8
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,HIGH);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 9
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,LOW);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,HIGH);
+
+  delay(1000);
+
+   digitalWrite( A,HIGH); //PRINTING 0
+  digitalWrite( B,HIGH);
+  digitalWrite( C,HIGH);
+  digitalWrite( D,HIGH);
+  digitalWrite( E,HIGH);
+  digitalWrite( F,HIGH);
+  digitalWrite( G,LOW);
+  delay(1000);
 }
