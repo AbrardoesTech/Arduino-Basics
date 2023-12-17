@@ -1,3 +1,3 @@
 # Arduino-Basics
 
-This Respiratory contains basic codes for programming the sensors affiliated to Arduino.
+This Respiratory contains basic codes for Arduino affiliated devices and sensors.
